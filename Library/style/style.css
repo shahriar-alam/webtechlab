@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+
+	margin: 0px;
+	
+}
+#main-parent{
+	
+	width:auto;
+	height: auto;
+	margin: auto;
+	
+}
+#header{
+	height: 100px;
+	background-color:#FAFAFA;
+	
+	
+}
+#menu{
+	height: 50px;
+	background-color: bisque;
+	
+}
+#sidebar{
+	width:250px;
+	height: 600px;
+	background-color:#7CA67B;
+	float: left;
+	
+	
+}
+
+
+
+#content{
+	
+	height: 600px;
+	
+	
+}
+#footer{
+	height: 50px;
+	background-color: bisque;
+}
+a:hover{
+	widows:250px;
+	background-color: yellow;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quizzes [
+<!ELEMENT quizzes (quiz)*>
+<!ELEMENT quiz (tid , qid , question*)>
+<!ELEMENT question (q , o1 , o2 , a)>
+<!ELEMENT student (sid)>
+<!ELEMENT tid (#PCDATA)>
+<!ELEMENT qid (#PCDATA)>
+<!ELEMENT q (#PCDATA)>
+<!ELEMENT o1 (#PCDATA)>
+<!ELEMENT o2 (#PCDATA)>
+<!ELEMENT a (#PCDATA)>
+]>
+<quizzes>
+  <quiz>
+    <tid>1</tid>
+    <qid>1</qid>
+      <question>
+        <q>What is HTML?</q>
+        <o1>Markup Language</o1>
+        <o2>Display Language</o2>
+        <a>1</a>
+      </question>
+      <question>
+        <q>What is XML?</q>
+        <o1>Markup Language</o1>
+        <o2>Display Language</o2>
+        <a>1</a>
+      </question>
+      <question>
+        <q>What is CSS?</q>
+        <o1>Markup Language</o1>
+        <o2>Display Language</o2>
+        <a>2</a>
+      </question>
+  </quiz>
+</quizzes>

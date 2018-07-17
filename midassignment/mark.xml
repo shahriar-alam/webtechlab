@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students [
+<!ELEMENT students (student)*>
+<!ELEMENT student (sid , qid , mark , correct , wrong)>
+<!ELEMENT sid (#PCDATA)>
+<!ELEMENT qid (#PCDATA)>
+<!ELEMENT mark (#PCDATA)>
+<!ELEMENT correct (#PCDATA)>
+<!ELEMENT wrong (#PCDATA)>
+]>
+<students>
+    <student>
+        <sid>0</sid>
+        <qid>0</qid>
+        <mark>0</mark>
+        <correct>0</correct>
+        <wrong>0</wrong>
+    </student>
+<student><sid>5</sid><qid>1</qid><mark>2</mark><correct>2</correct><wrong>1</wrong></student></students>
